@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 0.6rem
+}
+
+.top-section {
+    background-color: #fbf8f3;
+    padding: 20px 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.border-blue {
+    border: 2px solid blue;
+}
+
+.border-red {
+    border: 2px solid red;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../Inter/Inter-VariableFont_slnt\,wght.ttf);
+}

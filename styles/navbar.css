@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    /*padding: 6px 0px;*/
+}
+
+.nav-menu {
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+
+}
+
+.nav-menu div {
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.nav-menu div:hover {
+    border-bottom: 2px solid blue;
+}
+
+.nav-menu div:hover>a {
+    color: blue;
+}
+
+.fiber-logo {
+    padding-right: 60px;
+    font-weight: bold;
+}
+
+.signin-btn,
+.signup-btn,
+.free-trial-btn {
+    background-color: #4d13d1;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.6rem;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s
+}
+
+.signin-btn {
+    background-color: #fbf8f3;
+    color: black;
+}
+
+.signup-btn:hover,
+.free-trial-btn:hover {
+    opacity: 0.7
+}
+
+.signup-btn:active,
+.free-trial-btn:active {
+    opacity: 0.5
+}
+
+.signin-btn:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+.hamburger-menu-btn {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 560px) {
+    .hamburger-menu-btn {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .signin-section {
+        display: none;
+    }
+}
