@@ -22,9 +22,14 @@ body {
     font-size: 1rem
 }
 
-.top-section {
+.top-section,
+.footer-section {
     background-color: #fbf8f3;
     padding: 20px 6vw;
+}
+
+.footer-section {
+    padding: 50px 6vw;
 }
 
 .middle-section {
